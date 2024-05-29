@@ -10,6 +10,15 @@ In the project directory, you can run:
 ### `npm start`
 ### Open `http://localhost:3000/`
 
+## Technology Used
+
+#### React with Typescript
+#### react-slick for Card Carousel
+#### Tailwindcss for styling
+#### Localstorage to persist data
+#### Antd Component Library
+
+
 ## Functionality & Interactions
 
 #### Desktop View
