@@ -2,7 +2,6 @@ import LogoWhite from '../../../assets/logo-white.png'
 import Visa from '../../../assets/Visa.png'
 import { CardInterface } from '../../../common/types'
 
-
 const Card = ({ name, expiry, cardNumber, freeze }: CardInterface) => {
     return (
         <div className={`card p-6 w-[414px] h-[249px] bg-[#01D167] ${freeze && "bg-opacity-25"} rounded-xl text-white font-bold flex flex-col items-start`}>
