@@ -28,9 +28,10 @@ const Cards = () => {
 
     const handleAddCard = async () => {
         try {
-            setModalIsOpen(false)
 
             if (cardName !== "") {
+
+                setModalIsOpen(false)
 
                 const month = randomIntFromInterval(1, 12)
                 const year = randomIntFromInterval(27, 36)
@@ -51,6 +52,8 @@ const Cards = () => {
                     setCardData(updatedData)
                     message.success("Your Card Successfully Added!")
                 }
+            } else {
+                message.error("Please enter card name")
             }
             setCardName("")
         } catch (err) {
